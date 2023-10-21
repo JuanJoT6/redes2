@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    transition: 2s;
+}
+
+li, a{
+    list-style: none;
+    text-decoration:none;
+    color: black;
+}
+
+.btndarklight{
+    position: fixed;
+    margin-left: 50vw;
+    cursor: pointer;
+    border: 0px;
+    
+}
+
+.btndarklight img{
+    width: 50px;
+    height: auto;
+}
+
+.DarkMode{
+  
+}
+
+.DarkMode img{
+    width: 50px;
+    height: auto;
+}
+
+
+header{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header img{
+    height: 50px;
+    width: auto;
+}
+
+.nav1{
+    list-style: none;
+}
+
+.nav1 li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.banner-container{
+    background-color: rgb(53, 52, 52);
+    width: 100vw;
+    height: 300px;
+}
+
+.banner0{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(53, 52, 52, 1), rgba(253, 253, 253, 0)),
+    url('../img/logo.png');
+    color: white; 
+    text-align: center;
+}
+
+.banner0 h1{
+    font-size: 5em;
+}
+
+.banner1{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(53, 52, 52, 1), rgba(253, 253, 253, 0)),
+    url('../img/banner1.jpg');
+    color: white; 
+    text-align: center;
+}
+
+.banner2{
+    width: 100%;
+    height: 300px;
+    color: white; 
+    background-image: linear-gradient(to right, rgba(53, 52, 52, 1), rgba(253, 253, 253, 0)),
+    url('../img/blackhat-vs-whitehat.png');
+    text-align: center;
+}
+
+.banner3{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(53, 52, 52, 1), rgba(253, 253, 253, 0)),
+    url('../img/banner3.jpg');
+    color: white; 
+    text-align: center;
+}
+
+.banner4{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(53, 52, 52, 1), rgba(253, 253, 253, 0)),
+    url('../img/banner4.jpg');
+    color: white; 
+    text-align: center;
+}
+
+.main{
+    background-color: white;
+}
+
+body.light .main{
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.contenedor{
+    display: flex;
+    margin: auto;
+}
+
+.right-side{
+    border-top: 50px;
+    width: 100vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.right-side h1{
+    font-weight: bold;
+}
+
+
+body.light .contenedor{
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+
+.nav2 ul{
+    content: "";
+    width: 3px;
+    height: calc(100% - 58px);
+    margin-top: 29pk;
+    text-decoration: none;
+}
+
+.titulo-banner h1{
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.Descripcion-banner{
+    margin-top: 100px;
+}
+
+.right-side h1{
+    font-size: 2em;
+}
+
+.right-side p{
+    font-size: 1.5em;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: black;
+}
+
+body.light .footer{
+    background-color: #fff;
+    color: #000;
+}
+  
+.footer-content h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+body.light .footer-content h2{
+    color: #000;
+}
+  
+.footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+
+body.light .footer-content h5{
+    color: #000;
+}
+  
+.estudios-titulo{
+    width: 100vw;
+    padding: 5em;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+body.light .estudios-titulo{
+    color: #000;
+    background-color: #fff;
+}
+
+
+.portafolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    color: #fff;
+    display: block;
+}
+
+body.light .portafolio{
+    background-color: #000;
+    color: #000;
+}
+
+.portafolio-titulo{
+    width: 100vw;
+    padding: 5em;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+.portafolio-titulo h2{
+    font-size: 2.5em;
+}
+
+.portafolio .container{
+    width: 80vw;
+    height: 55vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.portafolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    color: #000000;
+    display: block;
+}
+
+body.light .portafolio{
+    background-color: #000;
+    color: #000;
+}
+
+.portafolio-titulo{
+    width: 100vw;
+    padding: 5em;
+    background-color: #000;
+    text-align: center;
+}
+
+.portafolio-titulo h2{
+    font-size: 2.5em;
+}
+
+.portafolio .container{
+    width: 80vw;
+    height: 55vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    margin: 5em;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+body.light .card{
+    background-color: #fff;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+.card__img{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/banner1.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.card__img1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/blackhat-vs-whitehat.png);
+    background-size:contain;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.card__img2{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/banner1.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.card__titulo{
+    padding: 20px;
+    display: flex;
+}
+
+.card__titulo h2{
+    align-content: center;
+}
+
+.projects-links{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+body.light .projects-links a{
+    color: #000;
+}
+
+.card .Descripcion-projecto{
+   margin: 0 auto;
+   margin: 3em; 
+   width: 100%;
+  
+}
+
+.card .Descripcion-projecto a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.Descripcion-projecto-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.Descripcion-projecto{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+}
